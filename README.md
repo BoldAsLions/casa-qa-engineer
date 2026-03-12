@@ -1,4 +1,3 @@
-```sh
 # Casa Vault Health Dashboard Assessment
 
 ## Overview
@@ -56,6 +55,7 @@ The test suite utilizes Playwright to validate critical functional paths. The pr
 * Description: USD valuations and transaction confirmation statuses are significantly outdated.
 * Actual Behavior: USD price is stale by 21+ days; transactions remain "Pending" despite having hundreds of confirmations on-chain.
 * Evidence:
+
 ![Outdated Valuation](screenshots/bug-price-estimate.png?raw=true)
 
 ---
@@ -63,6 +63,7 @@ The test suite utilizes Playwright to validate critical functional paths. The pr
 ### D. Medium: Hardware Device Status Discrepancy
 * Description: Coldcard Q displays "Not Connected" since Jan 15, while other keys show recent health checks.
 * Evidence:
+
 ![Device Status](screenshots/bug-coldcard-unconnected.png?raw=true)
 
 ---
