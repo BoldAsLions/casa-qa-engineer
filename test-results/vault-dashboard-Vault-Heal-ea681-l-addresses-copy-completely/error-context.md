@@ -189,7 +189,7 @@
         - generic [ref=e209]:
           - generic [ref=e210]: 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy
           - generic [ref=e211]:
-            - button "Copy" [ref=e212] [cursor=pointer]
+            - button "Copy" [active] [ref=e212] [cursor=pointer]
             - button "Receive" [ref=e213] [cursor=pointer]
         - generic [ref=e214]:
           - generic [ref=e215]: tb1qrp33g0q5b5698ahp5jnf5yzjmgcem8tlculdaf
