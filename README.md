@@ -8,7 +8,7 @@ This repository contains a technical assessment for the QA Engineer role at Casa
 ## Quick Start
 
 1. Clone the repo:
-   git clone https://github.com/boldaslions/casa-qa-engineer-assessment.git
+   git clone https://github.com/boldaslions/casa-qa-engineer.git
 
 2. Install dependencies:
    npm install
@@ -37,7 +37,7 @@ The test suite utilizes Playwright to validate critical functional paths. The pr
 * Actual Behavior: Dashboard only reports 0.25 BTC, failing to account for over 45.75 BTC confirmed on-chain.
 * Impact: Blocker. Total failure of asset visibility and financial reporting.
 * Evidence:
-![Balance Mismatch](screenshots/bug-46btc-balance-mismatch.png?raw=true)
+![Balance Mismatch](screenshots/bug-46btc-balance-mismatch.png)
 
 ---
 
@@ -47,7 +47,7 @@ The test suite utilizes Playwright to validate critical functional paths. The pr
 * Actual Behavior: 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy becomes 3J98t1WpEZ73CNmQviecrnyiWrnqRh.
 * Impact: Critical. Leads to invalid transactions and potential irrecoverable loss of funds.
 * Evidence:
-![Address Truncation](screenshots/bug-copy-cuts-last-4.png?raw=true)
+![Address Truncation](screenshots/bug-copy-cuts-last-4.png)
 
 ---
 
@@ -56,7 +56,7 @@ The test suite utilizes Playwright to validate critical functional paths. The pr
 * Actual Behavior: USD price is stale by 21+ days; transactions remain "Pending" despite having hundreds of confirmations on-chain.
 * Evidence:
 
-![Outdated Valuation](screenshots/bug-price-estimate.png?raw=true)
+![Outdated Valuation](screenshots/bug-price-estimate.png)
 
 ---
 
@@ -64,7 +64,7 @@ The test suite utilizes Playwright to validate critical functional paths. The pr
 * Description: Coldcard Q displays "Not Connected" since Jan 15, while other keys show recent health checks.
 * Evidence:
 
-![Device Status](screenshots/bug-coldcard-unconnected.png?raw=true)
+![Device Status](screenshots/bug-coldcard-unconnected.png)
 
 ---
 
