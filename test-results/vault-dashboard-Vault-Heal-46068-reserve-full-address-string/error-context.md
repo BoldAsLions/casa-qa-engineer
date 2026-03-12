@@ -1,0 +1,209 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - img [ref=e6]
+  - heading "Vault Health Dashboard" [level=1] [ref=e9]
+  - generic [ref=e11]:
+    - generic [ref=e12]:
+      - heading "Vault Summary" [level=2] [ref=e13]
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - text: Vault Name
+          - paragraph [ref=e17]: Vacation Fund
+        - generic [ref=e18]:
+          - text: Vault Type
+          - paragraph [ref=e19]: 3-of-5 Multisig
+        - generic [ref=e20]:
+          - text: Total Balance
+          - paragraph [ref=e21]: 1.84530000 BTC
+          - text: ≈ $97,422.33 USD
+      - heading "Key Health" [level=2] [ref=e23]
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e29]: Mobile Key
+          - generic [ref=e30]: Healthy·Last checked Feb 18, 2026
+        - generic [ref=e31]:
+          - generic [ref=e34]: HOME Key
+          - generic [ref=e35]: Healthy·Last checked Feb 17, 2026
+        - generic [ref=e36]:
+          - generic [ref=e39]: OFFICE Key
+          - generic [ref=e40]: Needs Health Check·Last checked Jan 5, 2024
+        - generic [ref=e41]:
+          - generic [ref=e44]: SAFE Key
+          - generic [ref=e45]: Healthy·Last checked Feb 14, 2026
+        - generic [ref=e46]:
+          - generic [ref=e49]: Casa Recovery Key
+          - generic [ref=e50]: Healthy·Last checked Feb 16, 2026
+        - generic [ref=e51]:
+          - generic [ref=e54]: Backup Mobile Key
+          - generic [ref=e55]: Healthy·Last checked Feb 18, 2026
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - heading "Transaction History" [level=2] [ref=e58]
+        - 'button "Sort by Date: Newest" [ref=e59] [cursor=pointer]':
+          - generic [ref=e60]: "Sort by Date: Newest"
+      - table [ref=e63]:
+        - rowgroup [ref=e64]:
+          - row "Date Type Amount (BTC) Address Confirmations Fee (BTC) Status Details" [ref=e65]:
+            - columnheader "Date" [ref=e66]
+            - columnheader "Type" [ref=e67]
+            - columnheader "Amount (BTC)" [ref=e68]
+            - columnheader "Address" [ref=e69]
+            - columnheader "Confirmations" [ref=e70]
+            - columnheader "Fee (BTC)" [ref=e71]
+            - columnheader "Status" [ref=e72]
+            - columnheader "Details" [ref=e73]
+        - rowgroup [ref=e74]:
+          - row "Feb 18, 2026 Receive +0.25000000 3J98t1Wp...WNLy 0 0.00000000 Confirmed View ▼" [ref=e75] [cursor=pointer]:
+            - cell "Feb 18, 2026" [ref=e76]
+            - cell "Receive" [ref=e77]
+            - cell "+0.25000000" [ref=e78]
+            - cell "3J98t1Wp...WNLy" [ref=e79]
+            - cell "0" [ref=e80]
+            - cell "0.00000000" [ref=e81]
+            - cell "Confirmed" [ref=e82]:
+              - generic [ref=e83]: Confirmed
+            - cell "View ▼" [ref=e84]:
+              - generic [ref=e85]:
+                - text: View
+                - generic [ref=e86]: ▼
+          - row "Feb 15, 2026 Receive +0.75000000 3QJmV3qf...inyC 142 0.00000000 Confirmed View ▼" [ref=e87] [cursor=pointer]:
+            - cell "Feb 15, 2026" [ref=e88]
+            - cell "Receive" [ref=e89]
+            - cell "+0.75000000" [ref=e90]
+            - cell "3QJmV3qf...inyC" [ref=e91]
+            - cell "142" [ref=e92]
+            - cell "0.00000000" [ref=e93]
+            - cell "Confirmed" [ref=e94]:
+              - generic [ref=e95]: Confirmed
+            - cell "View ▼" [ref=e96]:
+              - generic [ref=e97]:
+                - text: View
+                - generic [ref=e98]: ▼
+          - row "Feb 12, 2026 Send -0.12000000 tb1qw508...jzsx 389 0.00004200 Confirmed View ▼" [ref=e99] [cursor=pointer]:
+            - cell "Feb 12, 2026" [ref=e100]
+            - cell "Send" [ref=e101]
+            - cell "-0.12000000" [ref=e102]
+            - cell "tb1qw508...jzsx" [ref=e103]
+            - cell "389" [ref=e104]
+            - cell "0.00004200" [ref=e105]
+            - cell "Confirmed" [ref=e106]:
+              - generic [ref=e107]: Confirmed
+            - cell "View ▼" [ref=e108]:
+              - generic [ref=e109]:
+                - text: View
+                - generic [ref=e110]: ▼
+          - row "Feb 8, 2026 Receive +1.00000000 3MbYQMMm...TwXL 1,024 0.00000000 Confirmed View ▼" [ref=e111] [cursor=pointer]:
+            - cell "Feb 8, 2026" [ref=e112]
+            - cell "Receive" [ref=e113]
+            - cell "+1.00000000" [ref=e114]
+            - cell "3MbYQMMm...TwXL" [ref=e115]
+            - cell "1,024" [ref=e116]
+            - cell "0.00000000" [ref=e117]
+            - cell "Confirmed" [ref=e118]:
+              - generic [ref=e119]: Confirmed
+            - cell "View ▼" [ref=e120]:
+              - generic [ref=e121]:
+                - text: View
+                - generic [ref=e122]: ▼
+          - row "Feb 5, 2026 Send -0.00500000 3GRdnTq1...jrGF 1,456 0.10000000 Confirmed View ▼" [ref=e123] [cursor=pointer]:
+            - cell "Feb 5, 2026" [ref=e124]
+            - cell "Send" [ref=e125]
+            - cell "-0.00500000" [ref=e126]
+            - cell "3GRdnTq1...jrGF" [ref=e127]
+            - cell "1,456" [ref=e128]
+            - cell "0.10000000" [ref=e129]
+            - cell "Confirmed" [ref=e130]:
+              - generic [ref=e131]: Confirmed
+            - cell "View ▼" [ref=e132]:
+              - generic [ref=e133]:
+                - text: View
+                - generic [ref=e134]: ▼
+          - row "Jan 28, 2026 Receive +0.15000000 3Kzh9qAq...NLNS 2,105 0.00000000 Confirmed View ▼" [ref=e135] [cursor=pointer]:
+            - cell "Jan 28, 2026" [ref=e136]
+            - cell "Receive" [ref=e137]
+            - cell "+0.15000000" [ref=e138]
+            - cell "3Kzh9qAq...NLNS" [ref=e139]
+            - cell "2,105" [ref=e140]
+            - cell "0.00000000" [ref=e141]
+            - cell "Confirmed" [ref=e142]:
+              - generic [ref=e143]: Confirmed
+            - cell "View ▼" [ref=e144]:
+              - generic [ref=e145]:
+                - text: View
+                - generic [ref=e146]: ▼
+          - row "Jan 20, 2026 Send -0.03800000 3P14159f...iZrG 3,201 0.00003100 Confirmed View ▼" [ref=e147] [cursor=pointer]:
+            - cell "Jan 20, 2026" [ref=e148]
+            - cell "Send" [ref=e149]
+            - cell "-0.03800000" [ref=e150]
+            - cell "3P14159f...iZrG" [ref=e151]
+            - cell "3,201" [ref=e152]
+            - cell "0.00003100" [ref=e153]
+            - cell "Confirmed" [ref=e154]:
+              - generic [ref=e155]: Confirmed
+            - cell "View ▼" [ref=e156]:
+              - generic [ref=e157]:
+                - text: View
+                - generic [ref=e158]: ▼
+          - row "Jan 10, 2026 Send -0.16200000 3FZbgi29...tZc5 4,582 0.00005600 Confirmed View ▼" [ref=e159] [cursor=pointer]:
+            - cell "Jan 10, 2026" [ref=e160]
+            - cell "Send" [ref=e161]
+            - cell "-0.16200000" [ref=e162]
+            - cell "3FZbgi29...tZc5" [ref=e163]
+            - cell "4,582" [ref=e164]
+            - cell "0.00005600" [ref=e165]
+            - cell "Confirmed" [ref=e166]:
+              - generic [ref=e167]: Confirmed
+            - cell "View ▼" [ref=e168]:
+              - generic [ref=e169]:
+                - text: View
+                - generic [ref=e170]: ▼
+    - generic [ref=e171]:
+      - heading "Connected Devices" [level=2] [ref=e172]
+      - generic [ref=e174]:
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - generic [ref=e177]: Ledger Nano X
+            - generic [ref=e180]: Active
+          - generic [ref=e182]: "Key: HOME Key"
+          - generic [ref=e183]: "Firmware: v2.2.3"
+          - generic [ref=e184]: "Last Connected: Feb 17, 2026"
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - generic [ref=e187]: Trezor Model T
+            - generic [ref=e190]: Firmware Update Required
+          - generic [ref=e192]: "Key: OFFICE Key"
+          - generic [ref=e193]: "Firmware: v2.6.0"
+          - generic [ref=e194]: "Last Connected: Feb 10, 2026"
+        - generic [ref=e195]:
+          - generic [ref=e196]:
+            - generic [ref=e197]: Coldcard Q
+            - generic [ref=e200]: Not Connected
+          - generic [ref=e202]: "Key: SAFE Key"
+          - generic [ref=e203]: "Firmware: v6.2.1"
+          - generic [ref=e204]: "Last Connected: Jan 15, 2026"
+    - generic [ref=e205]:
+      - heading "Receiving Addresses" [level=2] [ref=e206]
+      - generic [ref=e208]:
+        - generic [ref=e209]:
+          - generic [ref=e210]: 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy
+          - generic [ref=e211]:
+            - button "Copy" [active] [ref=e212] [cursor=pointer]
+            - button "Receive" [ref=e213] [cursor=pointer]
+        - generic [ref=e214]:
+          - generic [ref=e215]: tb1qrp33g0q5b5698ahp5jnf5yzjmgcem8tlculdaf
+          - generic [ref=e216]:
+            - button "Copy" [ref=e217] [cursor=pointer]
+            - button "Receive" [ref=e218] [cursor=pointer]
+        - generic [ref=e219]:
+          - generic [ref=e220]: bc1p5d7rjq7g6rdk2yhzks9smlaqtedr4dekq08ge8ztwac72sfr9rusxg3s28
+          - generic [ref=e221]:
+            - button "Copy" [ref=e222] [cursor=pointer]
+            - button "Receive" [ref=e223] [cursor=pointer]
+        - generic [ref=e224]:
+          - generic [ref=e225]: 3QJmV3qfvL9SuYo34YihAf3sRCW3qSinyC
+          - generic [ref=e226]:
+            - button "Copy" [ref=e227] [cursor=pointer]
+            - button "Receive" [ref=e228] [cursor=pointer]
+```
